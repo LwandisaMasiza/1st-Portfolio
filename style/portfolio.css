@@ -1,0 +1,56 @@
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.hero {
+  text-align: center;
+  background: #fffff7;
+}
+
+.hero h2 {
+  font-weight: normal;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+}
+
+.hero p {
+  margin: 0;
+  color: #34282c;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #34282c;
+  font-weight: bold;
+}
+
+h1 {
+  color: #34282c;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 96px;
+}
+
+p {
+  font-weight: normal;
+}
+
+.btn-branding {
+  background: #e5788f;
+}

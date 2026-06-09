@@ -1,3 +1,7 @@
+:root {--branding-color: #e5788f;
+        --secondary-color: #fffff7;
+        --heading-font-family: "Poppins", sans-serif;}
+
 .poppins-medium {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -10,9 +14,12 @@
   font-style: normal;
 }
 
+body {var (--defaulte-font-family);}
+
 .hero {
   text-align: center;
   background: #fffff7;
+  padding: 160px 20px;
 }
 
 .hero h2 {
@@ -53,4 +60,9 @@ p {
 
 .btn-branding {
   background: #e5788f;
+            border-radius: 4px;
+            color: #fffff7;
+            font-size: 18px;
+            line-height: 27px;
+            padding: 15px 30px;
 }

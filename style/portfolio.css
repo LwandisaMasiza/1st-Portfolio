@@ -165,3 +165,32 @@ nav a :hover {
 nav li.active a {
   color: #e5788f;
 }
+
+footer .email-link {
+  text-decoration: none;
+  color: #34282c;
+  font-size: 24px;
+}
+
+footer .email-link :hover {
+  color: #e5788f;
+}
+
+footer {
+  margin: 60px;
+}
+
+footer.social-links a {
+  margin: 0 20px;
+  color: #34282c;
+  background: #fffff7;
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-link a :hover {
+  color: #e5788f;
+  background: #fffff7;
+}

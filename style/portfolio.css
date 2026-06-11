@@ -102,6 +102,9 @@ h2 {
     text-align: center;
     padding: 0;
   }
+  nav a {
+    font-size: 12px;
+  }
 }
 
 .content h1 {
@@ -121,6 +124,44 @@ h2 {
   margin: 30px;
 }
 
-.content p {font-size: 14px;}
-.content h3 {line-height: 1,5;
-              margin: 20px 0 }
+.content p {
+  font-size: 14px;
+}
+.content h3 {
+  line-height: 1, 5;
+  margin: 20px 0;
+}
+
+.logo {
+  max-width: 150px;
+}
+
+nav li {
+  margin-left: 10px;
+  display: inline;
+  line-height: 42px;
+  list-style: none;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #34282c;
+  transition: all 100ms ease-in-out;
+}
+
+nav a :hover {
+  color: #e5788f;
+}
+
+nav li.active a {
+  color: #e5788f;
+}

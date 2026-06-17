@@ -19,7 +19,7 @@
 .hero {
   text-align: center;
   background: #fffff7;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero h2 {
@@ -106,7 +106,7 @@ h2 {
     font-size: 12px;
   }
 
-  h4{font-size: 18px;}
+  h3{font-size: 18px;}
 }
 
 .content h1 {
@@ -119,12 +119,9 @@ h2 {
   font-family: var(--heading-font-family);
 }
 
-.content {
-  padding: 160px 20px;
-}
-.content {
-  margin: 30px;
-}
+.content-container {
+                    padding: 60px 20px;
+                    margin: 30px;}
 
 .content p {
   font-size: 14px;
@@ -202,7 +199,7 @@ footer.contact-box {background: #fffff7;
                     border-radius:10px;
                     margin: 0;}
 
-h4 {font-size:48;}
+h3 {font-size:48;}
 
 
 

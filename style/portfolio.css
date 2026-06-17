@@ -105,6 +105,8 @@ h2 {
   nav a {
     font-size: 12px;
   }
+
+  h4{font-size: 18px;}
 }
 
 .content h1 {
@@ -194,3 +196,14 @@ footer .social-link a :hover {
   color: #e5788f;
   background: #fffff7;
 }
+
+footer.contact-box {background: #fffff7;
+                    padding: 30px 100px;
+                    border-radius:10px;
+                    margin: 0;}
+
+h4 {font-size:48;}
+
+
+
+

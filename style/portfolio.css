@@ -14,12 +14,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
-}
-
-html, body {max-width: 100%;
-            overflow-x: hidden;}
-
- body {position: relative;}           
+}         
 
 .hero {
   text-align: center;
@@ -93,6 +88,8 @@ h2 {
 }
 
 @media (max-width: 900px) {
+  body {overflow-x: hidden;
+        position: relative;}
   .project-desciption {
     padding: 0;
     text-align: center;

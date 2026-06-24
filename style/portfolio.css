@@ -16,6 +16,11 @@
   font-style: normal;
 }
 
+html, body {max-width: 100%;
+            overflow-x: hidden;}
+
+ body {position: relative;}           
+
 .hero {
   text-align: center;
   background: #fffff7;
@@ -92,6 +97,8 @@ h2 {
     padding: 0;
     text-align: center;
   }
+  h1 {font-size: 44px;
+      line-height: 1.5;}
   h2 {
     font-size: 44px;
   }
@@ -107,7 +114,7 @@ h2 {
   }
 
   h3 {
-    font-size: 18px;
+    font-size: 26px;
   }
 }
 
@@ -135,11 +142,11 @@ h2 {
 }
 
 .logo {
-  max-width: 150px;
+  max-width: 40px;
 }
 
 nav li {
-  margin-left: 10px;
+  margin-left: 15px;
   display: inline;
   line-height: 42px;
   list-style: none;

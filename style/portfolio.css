@@ -1,3 +1,5 @@
+body {overflow-x: hidden;}
+
 :root {
   --branding-color: #e5788f;
   --secondary-color: #fffff7;
@@ -128,7 +130,11 @@ h2 {
 .content-container {
   padding: 60px 20px;
   margin: 30px;
+  max-width: 100%;
+  overflow-x: hidden;
 }
+.container {max-width: 100%;
+            overflow-x: hidden;}
 
 .content p {
   font-size: 14px;
@@ -141,6 +147,9 @@ h2 {
 .logo {
   max-width: 40px;
 }
+
+img {max-width:100%;
+      height: auto;}
 
 nav li {
   margin-left: 15px;

@@ -89,7 +89,7 @@ h2 {
   padding: 20px 60px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 100%) {
   body {overflow-x: hidden;
         position: relative;}
   .project-desciption {

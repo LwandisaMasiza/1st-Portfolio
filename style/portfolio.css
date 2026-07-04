@@ -136,7 +136,7 @@ h2 {
 
 .content-container {
   padding: 10px 10px;
-  margin: 0px;
+  margin: 0;
   max-width: 100%;
   width: 100%;
   overflow-x: hidden;
@@ -162,11 +162,6 @@ img {
 
 .logo {
   max-width: 100%;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
 }
 
 nav li {
